@@ -42,13 +42,48 @@
 
 <!-- NESTED FOR LOOP -->
 
-<?php
+<!-- <?php
  
  for($i=1; $i<=3; $i++){
     for($j=1; $j<=3; $j++){
         echo "$i    $j <br>";
     }
  }
+?> -->
+
+
+
+
+<!-- WHILE LOOP -->
+
+
+<?php
+    // $num = 1;
+    // while($num<=10){
+    //     echo $num;
+    //     echo "<br>";
+    //     $num++;
+    // }
+
+
+    // $num = 10;
+    //  while($num>=1){
+    //     echo $num;
+    //     echo "<br>";
+    //     $num--;
+    //  }
+
+    
+
+
+    // DO WHILE LOOP
+
+
+    $num = 0;
+    do{ 
+        echo "Current loop value is $num <br/>";
+    $num++;
+    }while($num<=10);
 ?>
 
 
