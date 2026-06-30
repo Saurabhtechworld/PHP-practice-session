@@ -1,16 +1,16 @@
 <?php
-    // $x=10;
-    // echo "BEfore condition <br/>";
+    $x=10;
+    echo "BEfore condition <br/>";
 
-    // if($x==20){
-    //     goto jump;
-    // }
-    // $name="Saurabh  <br/>";
-    // echo $name;
+    if($x==20){
+        goto jump;
+    }
+    $name="Saurabh  <br/>";
+    echo $name;
     
 
-    // jump:
-    // echo "After codition <br/>";
+    jump:
+    echo "After codition <br/>";
 
 
     // $i=1;
@@ -26,14 +26,14 @@
     // }
 
 
-    for($i=1; $i<10; $i++){
-        echo "$i <br/>";
+    // for($i=1; $i<10; $i++){
+    //     echo "$i <br/>";
 
-        if($i==5){
-            goto outsideloop;
-        }
-    }
+    //     if($i==5){
+    //         goto outsideloop;
+    //     }
+    // }
 
-    outsideloop:
-    echo "Loop is break";
+    // outsideloop:
+    // echo "Loop is break";
     ?>
