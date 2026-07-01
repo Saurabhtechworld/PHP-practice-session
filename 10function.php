@@ -48,10 +48,45 @@
     
 
     //FUNCTION  WITH PARAMETER
-    function fruit($name, $color){
-        echo "This is $name and color is $color";
+
+
+
+    // function fruit($name, $color){
+    //     echo "This is $name and color is $color";
+    // }
+
+    // fruit("Mango", "Yellow");
+
+
+    // function displayUser($name,$color="orange"){
+    //     echo "<h1 style= 'color:$color;'> $name </h1>";
+    // }
+
+    // displayUser("Saurabh Pandey");
+    
+
+
+    //nested function
+    // test();
+    // function test(){
+    //     echo "Test funtion called <br/>";
+
+    //     function apple(){
+    //         echo "apple funtion called";
+    //     }
+   
+         
+    //  apple();
+        
+    // }
+
+
+
+    function test(){
+        echo "Teest function called";
     }
 
-    fruit("Mango", "Yellow");
+    $test = "test";
+    $test();
     
 ?>
